@@ -6,7 +6,7 @@ This project is managed using [Task Master](README-task-master.md) for AI-driven
 
 ## 🚀 Project Status
 
-[![Project Status](https://img.shields.io/badge/status-MVP%20Completed-brightgreen)](https://github.com/umutc/distrubuted-residential-proxy-system)
+[![Project Status](https://img.shields.io/badge/status-MVP%20Completed-brightgreen)](https://github.com/umutc/distributed-residential-proxy-system)
 
 > The core MVP features are implemented, tested (unit tests), and documented. The system is ready for initial deployment and integration testing.
 
