@@ -1,6 +1,6 @@
 # Distributed Residential Proxy System
 
-A distributed system that manages a pool of geographically diverse residential egress nodes and routes outbound HTTP(S) requests through them. Internal cloud services (e.g., AWS Lambda) send requests to a central gateway, which assigns each job to a healthy node and returns the response. This gives region-accurate egress and spreads request load across many connections instead of a few datacenter IPs.
+A distributed system that manages a pool of geographically diverse residential egress agents and routes outbound HTTP(S) requests through them. Internal cloud services (e.g., AWS Lambda) submit jobs to an Orchestrator, which assigns each job to an available Agent over WebSocket and returns the response. This gives region-accurate egress and spreads request load across many connections instead of a few datacenter IPs.
 
 This project is managed using [Task Master](README-task-master.md) for AI-driven development.
 
